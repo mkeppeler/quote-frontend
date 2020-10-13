@@ -65,7 +65,7 @@ metadata:
     stack.appsody.dev/version: 0.4.8
   name: quote-frontend
 spec:
-  applicationImage: dev.local/quote-frontend
+  applicationImage: dev.local/quote-cwfront
   createKnativeService: false
   env:
   - name: BACKEND_URL
