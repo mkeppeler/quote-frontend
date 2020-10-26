@@ -1,17 +1,10 @@
 apiVersion: appsody.dev/v1beta1
 kind: AppsodyApplication
 metadata:
-  annotations:
-    architecture: x86_64
-    authoritative-source-url: registry.access.redhat.com
-  labels:
-    image.opencontainers.org/title: quote-frontend
-    stack.appsody.dev/id: nodejs-express
-    stack.appsody.dev/version: 0.4.8
+  creationTimestamp: null
   name: quote-frontend
-  namespace: insurance-quote
 spec:
-  applicationImage: dev.local/quote-cwfront
+  applicationImage: dev.local/quote-frontend
   createKnativeService: false
   env:
   - name: BACKEND_URL
