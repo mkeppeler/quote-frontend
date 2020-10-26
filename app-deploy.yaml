@@ -3,6 +3,7 @@ kind: AppsodyApplication
 metadata:
   creationTimestamp: null
   name: quote-frontend
+  namespace: insurance-quote
 spec:
   applicationImage: dev.local/quote-frontend
   createKnativeService: false
